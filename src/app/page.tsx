@@ -7,7 +7,7 @@ import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
-import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
+import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 import { Award, Building, Calendar, Clock, Shield, Star } from "lucide-react";
@@ -28,7 +28,7 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarStyleCentered
+      <NavbarStyleFullscreen
       navItems={[
         { name: "Services", id: "#services" },
         { name: "Fleet", id: "#fleet" },
