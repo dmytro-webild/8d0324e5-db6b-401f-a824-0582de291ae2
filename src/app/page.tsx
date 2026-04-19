@@ -30,10 +30,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleFullscreen
       navItems={[
-        { name: "Services", id: "#services" },
-        { name: "Fleet", id: "#fleet" },
-        { name: "About", id: "#about" },
-        { name: "Contact", id: "#contact" },
+        { name: "Services", id: "services" },
+        { name: "Fleet", id: "fleet" },
+        { name: "About", id: "about" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="Frisco Limousine"
     />
@@ -44,8 +44,8 @@ export default function LandingPage() {
       logoText="Frisco Limousine"
       description="Luxury Transportation in Frisco & DFW. Airport transfers, weddings, corporate travel & special events — delivered with professionalism and care."
       buttons={[
-        { text: "Book Now", href: "#contact" },
-        { text: "Get Quote", href: "#contact" },
+        { text: "Book Now", href: "contact" },
+        { text: "Get Quote", href: "contact" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/young-curly-woman-enjoying-her-wine-bar_627829-6909.jpg"
     />
@@ -147,8 +147,8 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       columns={[
-        { items: [{ label: "Home", href: "#" }, { label: "Services", href: "#services" }] },
-        { items: [{ label: "Fleet", href: "#fleet" }, { label: "Contact", href: "#contact" }] },
+        { items: [{ label: "Home", href: "/" }, { label: "Services", href: "services" }] },
+        { items: [{ label: "Fleet", href: "fleet" }, { label: "Contact", href: "contact" }] },
       ]}
       logoText="Frisco Limousine"
     />
